@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +65,97 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+
+html,
+body,
+#root,
+.theme-bg-color
+ {
+  min-height: 100%;
+  position:absolute; top:0; bottom:0; right:0; left:0;
+  margin: 0;
+  padding: 0;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
+.theme-bg-color {
+  min-width: 100vh;
+  min-height: 100vh;
+  font-size: 18px;
+}
+
+.container-box {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.header-text {
+  font-size: 40px;
+}
+
+.color-options {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.color-option {
+  display: flex;
+  width: 150px;
+  margin: auto;
+  cursor: pointer;
+
+  gap: 10px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.color-option .color-box {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #000;
+}
+
+.bright-red-orange {
+  background-color: #F75E25;
+  color: black;
+}
+
+.papyrus-white {
+  background-color: #CFD3CD;
+  color: black;
+}
+
+.pearl-dark-grey {
+  background-color: #828282;
+  color: #fff;
+}
+
+.traffic-blue {
+  background-color: #063971;
+  color: #fff;
+}
+
+.iron-grey {
+  background-color: #434B4D;
+  color: #fff;
+}
+
+.pastel-orange {
+  background-color: #FF7514;
+  color: #fff;
+}
+
+.ochre-yellow {
+  background-color: #AEA04B;
+  color: #fff;
+}
+.cream {
+  background-color: #FDF4E3;
+  color: #000;
+}
+
