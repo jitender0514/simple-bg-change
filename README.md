@@ -3,7 +3,7 @@
 This is a simple app that change the background of the page on selection of the provided color. This is just a demo learning app using React + TypeScript.
 
 ## Requirement
-- node <= 18.0 
+- node >= 18.0 
 - vite
 
 ## How To Run
